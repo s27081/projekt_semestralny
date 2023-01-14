@@ -101,7 +101,8 @@ void gameStart(string gameBoard[10][20], int playerPosition[2], char playerChar,
 		}
 		cout << endl;
 	}
-
+//sprawdzenie dotarcia do końca labiryntu
+	
 	if (finish) {
 		cout << "Gratulacje wyszedles z labiryntu!";
 		cout << endl;
@@ -111,8 +112,6 @@ void gameStart(string gameBoard[10][20], int playerPosition[2], char playerChar,
 	playerMovement(gameBoard, playerPosition);
 
 }
-
-//sprawdzenie dotarcia do końca labiryntu
 
 
 int main()
